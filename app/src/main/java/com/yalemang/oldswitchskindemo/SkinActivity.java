@@ -21,9 +21,11 @@ public class SkinActivity extends AppCompatActivity {
         btSwitchOne = findViewById(R.id.bt_switch_skin_by_style);
         btSwitchTwo = findViewById(R.id.bt_switch_skin_by_setting);
         btSwitchOne.setOnClickListener(v -> {
+            //Style修改方式切换皮肤
             startActivity(new Intent(this, SwitchByStyleActivity.class));
         });
         btSwitchTwo.setOnClickListener(v -> {
+            //Setting方式切换皮肤
             startActivity(new Intent(this, SwitchBySettingActivity.class));
         });
     }

@@ -10,6 +10,7 @@ import java.util.List;
 public class SkinManager {
 
     private volatile static SkinManager INSTANCE;
+    //这里的皮肤集合数据可通过后端进行配置 & 添加 & 下载
     private List<Skin> skinList;
     private List<SwitchSkinListener> switchSkinListeners;
     private int currentSkinId = ID_SKIN_BLUE;

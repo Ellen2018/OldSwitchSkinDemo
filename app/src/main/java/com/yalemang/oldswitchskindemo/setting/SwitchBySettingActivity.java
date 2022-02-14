@@ -7,12 +7,20 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.yalemang.oldswitchskindemo.App;
 import com.yalemang.oldswitchskindemo.R;
 import com.yalemang.oldswitchskindemo.setting.skin.BaseSkinActivity;
 import com.yalemang.oldswitchskindemo.setting.skin.Skin;
 import com.yalemang.oldswitchskindemo.setting.skin.SkinManager;
 
+/**
+ * 通过Setting的方式进行皮肤更换
+ * 缺点:
+ * 1.需要进行一层封装，抽取逻辑到皮肤管理，以回调方式通知各个界面
+ * 2.apk体积会随着皮肤越多而越大
+ *
+ * 优点:
+ * 相较于Style方式，这种方式灵活一些
+ */
 public class SwitchBySettingActivity extends BaseSkinActivity {
 
     private Button bt1, bt2, bt3;
