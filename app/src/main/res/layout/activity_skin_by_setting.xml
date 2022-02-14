@@ -12,7 +12,7 @@
         <Button
             android:layout_width="0dp"
             android:id="@+id/bt1"
-            android:text="皮肤1"
+            android:text="蓝色"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
             android:layout_height="match_parent"/>
@@ -20,7 +20,7 @@
         <Button
             android:layout_width="0dp"
             android:id="@+id/bt2"
-            android:text="皮肤2"
+            android:text="绿色"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
             android:layout_height="match_parent"/>
@@ -28,7 +28,7 @@
         <Button
             android:layout_width="0dp"
             android:id="@+id/bt3"
-            android:text="皮肤3"
+            android:text="红色"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
             android:layout_height="match_parent"/>
