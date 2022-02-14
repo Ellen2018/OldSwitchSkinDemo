@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_switch_skin_by_style"
+        android:layout_width="wrap_content"
+        android:text="通过切换Style方式"
+        android:layout_height="?actionBarSize"/>
+
+    <Button
+        android:id="@+id/bt_switch_skin_by_setting"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/bt_switch_skin_by_style"
+        android:text="通过Setting方式"
+        android:layout_height="?actionBarSize"/>
+
+</RelativeLayout>

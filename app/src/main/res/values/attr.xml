@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="main_color" format="color" />
+    <attr name="iv_src" format="reference"/>
+    <attr name="skin_name" format="string"/>
+</resources>
