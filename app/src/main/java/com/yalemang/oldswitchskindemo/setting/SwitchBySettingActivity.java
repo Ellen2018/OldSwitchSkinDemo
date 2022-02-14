@@ -17,6 +17,7 @@ import com.yalemang.oldswitchskindemo.setting.skin.SkinManager;
  * 缺点:
  * 1.需要进行一层封装，抽取逻辑到皮肤管理，以回调方式通知各个界面
  * 2.apk体积会随着皮肤越多而越大
+ * 3.如果后端控制，皮肤属性如果越多，那么相对来说还是很复杂的
  *
  * 优点:
  * 相较于Style方式，这种方式灵活一些
